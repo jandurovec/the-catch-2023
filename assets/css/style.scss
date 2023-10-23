@@ -1,0 +1,25 @@
+---
+---
+$baseurl: "{{ site.baseurl }}";
+$header-bg-color: #ff914d;
+$section-headings-color: #ff914d;
+
+@import "{{ site.theme }}";
+
+.page-header {
+  background-image: url('#{$baseurl}/assets/images/cns-j-verich.png'), linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.page-header h1 a {
+  color: $header-heading-color;
+}
+
+.main-content {
+  background-image: url('#{$baseurl}/assets/images/thecatch2023-linka.png');
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
